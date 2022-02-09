@@ -102,7 +102,7 @@ function Header(){
 function Foo_ter(){
     return(
         <footer>
-            <h5>cloned by manish prajapati from <a target="_blank" href="https://thapatechnical.github.io/reactweb">here</a></h5>
+            <h5>made by manish prajapati from <a target="_blank" href="https://thapatechnical.github.io/reactweb">here</a></h5>
         </footer>
     )
 }
