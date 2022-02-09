@@ -15,7 +15,7 @@ function Home(prop){
                     </div>
                 </div>
                 <div className="col-md-6">
-                    <img src={`images/${prop.img}`} alt="hello" />
+                    <img src={`./FirstReactWebsite/images/${prop.img}`} alt="hello" />
                 </div>
             </div>
         </div>
@@ -29,7 +29,7 @@ function Services(){
         {apiData.map((val,ind) => {
             return(
                 <div className="card" key={ind}>
-                    <img src={`images/${val.image}`} className="card-img-top" alt="" />
+                    <img src={`./FirstReactWebsite/images/${val.image}`} className="card-img-top" alt="" />
                     <div className="card-body">
                         <h5 className="card-title text-capitalize">{val.title}</h5>
                         <p className="card-text text-capitalize">{val.desc}</p>

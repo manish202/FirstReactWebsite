@@ -7,6 +7,7 @@ function App(){
         <Header />
         <Routes>
           <Route exact path="/" element={<Home title="Grow your business with" area="home" img="cat.png" />} />
+          <Route exact path="/FirstReactWebsite" element={<Home title="Grow your business with" area="home" img="cat.png" />} />
           <Route exact path="/services" element={<Services />} />
           <Route exact path="/about" element={<About title="welcome to about page" area="about" img="coffee.png" />} />
           <Route exact path="/contact" element={<Contact />} />
