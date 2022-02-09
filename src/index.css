@@ -1,0 +1,84 @@
+:root{
+  --gray-color: "lightslategray";
+}
+a{
+  text-decoration: none;
+}
+.header{
+  padding-top: 20px;
+}
+.header li a{
+  color: var(--gray-color);
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.header li{
+  list-style: none;
+  padding: 10px;
+  margin: 0px 10px;
+}
+.header h1 a{
+  color: var(--gray-color);
+  text-transform: uppercase;
+  font-family: fantasy;
+}
+.header h1 a:hover,.header li a:hover,.header li a.active{
+  color: blue;
+}
+.home img{
+  width: 100%;
+  animation: anim 2s ease infinite alternate;
+  transition: all 0.5s;
+}
+@keyframes anim{
+  from{
+    transform: translateY(-10px);
+  }to{
+    transform: translateY(10px);
+  }
+}
+.box h1{
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.box h1 span{
+  color: blue;
+}
+.box p{
+  font-size: 20px;
+  color: var(--gray-color);
+  text-transform: capitalize;
+}
+.box a{
+  transition: all 0.3s;
+  text-transform: capitalize;
+  border: 2px solid blue;
+  color: blue;
+  padding: 10px 20px;
+  border-radius: 50px;
+  letter-spacing: 1px;
+  margin: 20px;
+  margin-left: 5px;
+  display: inline-block;
+}
+.box a:hover{
+  background-color: blue;
+  color: white;
+}
+footer h5{
+  text-align: center;
+  color: var(--gray-color);
+  text-transform: capitalize;
+  padding: 10px;
+}
+.card{
+  margin: 20px;
+  width: 280px;
+}
+.card-img-top{
+  height: 200px;
+  object-fit: cover;
+}
+.navbar-collapse{
+  flex-grow: 0;
+}
